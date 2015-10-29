@@ -61,7 +61,8 @@ func main() {
 			return device.Type != "tablet"
 		}},
 		{"discard known non-removable batt", func(device Vitalstats) bool {
-			return !strings.Contains(device.Power, "on-removable") // skip leading 'n' because case
+			return !strings.Contains(device.Power, "on-removable") && // skip leading 'n' because case
+				!strings.Contains(device.Power, "un-removable") // lol
 		}},
 		{"require definitely removable batt", func(device Vitalstats) bool {
 			return strings.Contains(device.Power, "removable")
