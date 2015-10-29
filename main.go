@@ -53,16 +53,38 @@ func main() {
 	fmt.Println("valid options....")
 	fmt.Println()
 
+	filters := []filter{
+		{"discard phablet", func(device Vitalstats) bool {
+			return device.Type != "phablet"
+		}},
+		{"discard tablet", func(device Vitalstats) bool {
+			return device.Type != "tablet"
+		}},
+		{"discard known non-removable batt", func(device Vitalstats) bool {
+			return !strings.Contains(device.Power, "on-removable") // skip leading 'n' because case
+		}},
+		{"require definitely removable batt", func(device Vitalstats) bool {
+			return strings.Contains(device.Power, "removable")
+		}},
+		{"require latest CM", func(device Vitalstats) bool {
+			return strings.Contains(device.CMSupport, "12")
+		}},
+	}
+
+	//var survivingDevices []Vitalstats
+	for _, filter := range filters {
+		fmt.Printf("filtering %q... ", filter.name)
+		survivingDevices := make([]Vitalstats, 0)
+		for _, dev := range allDevices {
+			if filter.fn(dev) {
+				survivingDevices = append(survivingDevices, dev)
+			}
+		}
+		fmt.Printf("%d valid options remaining\n", len(survivingDevices))
+		allDevices = survivingDevices
+	}
+
 	for _, device := range allDevices {
-		if device.Type == "phablet" {
-			continue
-		}
-		if device.Type == "tablet" {
-			continue
-		}
-		if strings.Contains(device.Power, "non-removable") {
-			continue
-		}
 		json.NewEncoder(os.Stdout).Encode(device)
 	}
 }
@@ -89,15 +111,16 @@ func scrape() []Vitalstats {
 			log.Fatal(err)
 		}
 		doc2.Find("div#mw-content-text table tr").Each(func(_ int, s *goquery.Selection) {
+			val := strings.TrimSpace(s.Find("td").Text())
 			switch strings.TrimSpace(s.Find("th").Text()) {
 			case "Power:":
-				vitals.Power = s.Find("td").Text()
+				vitals.Power = val
 			case "Release Date:":
-				vitals.ReleaseDate = s.Find("td").Text()
+				vitals.ReleaseDate = val
 			case "Type:":
-				vitals.Type = s.Find("td").Text()
+				vitals.Type = val
 			case "CM Support:":
-				vitals.CMSupport = s.Find("td").Text()
+				vitals.CMSupport = val
 			}
 		})
 
@@ -106,4 +129,9 @@ func scrape() []Vitalstats {
 	})
 
 	return allDevices
+}
+
+type filter struct {
+	name string
+	fn   func(Vitalstats) bool
 }
