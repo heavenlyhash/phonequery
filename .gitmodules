@@ -1,0 +1,9 @@
+[submodule ".gopath/src/github.com/PuerkitoBio/goquery"]
+	path = .gopath/src/github.com/PuerkitoBio/goquery
+	url = https://github.com/PuerkitoBio/goquery.git
+[submodule ".gopath/src/github.com/andybalholm/cascadia"]
+	path = .gopath/src/github.com/andybalholm/cascadia
+	url = https://github.com/andybalholm/cascadia.git
+[submodule ".gopath/src/golang.org/x/net"]
+	path = .gopath/src/golang.org/x/net
+	url = https://github.com/golang/net.git
