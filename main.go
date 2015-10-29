@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"io"
 	"log"
 	"os"
 	"strings"
@@ -20,6 +21,53 @@ type Vitalstats struct {
 }
 
 func main() {
+	var allDevices []Vitalstats
+	cacheFile, err := os.Open("cache")
+	if err != nil {
+		cacheFile, err = os.OpenFile("cache", os.O_CREATE|os.O_RDWR, 0644)
+		if err != nil {
+			log.Fatal(err)
+		}
+		allDevices = scrape()
+		enc := json.NewEncoder(cacheFile)
+		for _, dev := range allDevices {
+			enc.Encode(dev)
+		}
+	} else {
+		dec := json.NewDecoder(cacheFile)
+		for {
+			var vitals Vitalstats
+			err := dec.Decode(&vitals)
+			if err == io.EOF {
+				break
+			} else if err != nil {
+				log.Fatal(err)
+			}
+			allDevices = append(allDevices, vitals)
+		}
+	}
+
+	fmt.Println()
+	fmt.Printf("%d devices in total.\n", len(allDevices))
+	fmt.Println("====================================")
+	fmt.Println("valid options....")
+	fmt.Println()
+
+	for _, device := range allDevices {
+		if device.Type == "phablet" {
+			continue
+		}
+		if device.Type == "tablet" {
+			continue
+		}
+		if strings.Contains(device.Power, "non-removable") {
+			continue
+		}
+		json.NewEncoder(os.Stdout).Encode(device)
+	}
+}
+
+func scrape() []Vitalstats {
 	allDevices := make([]Vitalstats, 0, 400)
 
 	doc, err := goquery.NewDocument("http://wiki.cyanogenmod.org/w/Devices")
@@ -27,7 +75,9 @@ func main() {
 		log.Fatal(err)
 	}
 
-	doc.Find("span.device").Each(func(i int, s *goquery.Selection) {
+	devicesSelection := doc.Find("span.device")
+	devicesCount := len(devicesSelection.Nodes)
+	devicesSelection.Each(func(i int, s *goquery.Selection) {
 		vitals := Vitalstats{}
 
 		vitals.Name = s.Find("span.name").Text()
@@ -52,25 +102,8 @@ func main() {
 		})
 
 		allDevices = append(allDevices, vitals)
-		json.NewEncoder(os.Stdout).Encode(vitals)
+		fmt.Fprintf(os.Stderr, "scanned device %d/%d\n", i, devicesCount)
 	})
 
-	fmt.Println()
-	fmt.Printf("%d devices in total.\n", len(allDevices))
-	fmt.Println("====================================")
-	fmt.Println("valid options....")
-	fmt.Println()
-
-	for _, device := range allDevices {
-		if device.Type == "phablet" {
-			continue
-		}
-		if device.Type == "tablet" {
-			continue
-		}
-		if strings.Contains(device.Power, "non-removable") {
-			continue
-		}
-		json.NewEncoder(os.Stdout).Encode(device)
-	}
+	return allDevices
 }
