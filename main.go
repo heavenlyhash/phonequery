@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 	"os"
 	"strings"
@@ -14,11 +15,13 @@ type Vitalstats struct {
 	Link        string
 	Power       string
 	ReleaseDate string
-	Type        string // e.g. "tablet"
+	Type        string // so far, ["phone"|"tablet"|"phablet"]
 	CMSupport   string
 }
 
 func main() {
+	allDevices := make([]Vitalstats, 0, 400)
+
 	doc, err := goquery.NewDocument("http://wiki.cyanogenmod.org/w/Devices")
 	if err != nil {
 		log.Fatal(err)
@@ -47,9 +50,27 @@ func main() {
 				vitals.CMSupport = s.Find("td").Text()
 			}
 		})
+
+		allDevices = append(allDevices, vitals)
 		json.NewEncoder(os.Stdout).Encode(vitals)
 	})
 
-	// remove:
-	//  - 'non-removable'
+	fmt.Println()
+	fmt.Printf("%d devices in total.\n", len(allDevices))
+	fmt.Println("====================================")
+	fmt.Println("valid options....")
+	fmt.Println()
+
+	for _, device := range allDevices {
+		if device.Type == "phablet" {
+			continue
+		}
+		if device.Type == "tablet" {
+			continue
+		}
+		if strings.Contains(device.Power, "non-removable") {
+			continue
+		}
+		json.NewEncoder(os.Stdout).Encode(device)
+	}
 }
