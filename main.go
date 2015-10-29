@@ -65,7 +65,8 @@ func main() {
 				!strings.Contains(device.Power, "un-removable") // lol
 		}},
 		{"require definitely removable batt", func(device Vitalstats) bool {
-			return strings.Contains(device.Power, "removable")
+			return strings.Contains(device.Power, "removable") ||
+				strings.Contains(device.Power, "removeable") // lol
 		}},
 		{"require latest CM", func(device Vitalstats) bool {
 			return strings.Contains(device.CMSupport, "12")
