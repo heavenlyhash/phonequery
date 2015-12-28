@@ -3,49 +3,15 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io"
-	"log"
 	"os"
 	"strings"
 
-	"github.com/PuerkitoBio/goquery"
+	. "./stuff"
 )
 
-type Vitalstats struct {
-	Name        string
-	Link        string
-	Power       string
-	ReleaseDate string
-	Type        string // so far, ["phone"|"tablet"|"phablet"]
-	CMSupport   string
-}
-
 func main() {
-	var allDevices []Vitalstats
-	cacheFile, err := os.Open("cache")
-	if err != nil {
-		cacheFile, err = os.OpenFile("cache", os.O_CREATE|os.O_RDWR, 0644)
-		if err != nil {
-			log.Fatal(err)
-		}
-		allDevices = scrape()
-		enc := json.NewEncoder(cacheFile)
-		for _, dev := range allDevices {
-			enc.Encode(dev)
-		}
-	} else {
-		dec := json.NewDecoder(cacheFile)
-		for {
-			var vitals Vitalstats
-			err := dec.Decode(&vitals)
-			if err == io.EOF {
-				break
-			} else if err != nil {
-				log.Fatal(err)
-			}
-			allDevices = append(allDevices, vitals)
-		}
-	}
+	// Fetch ALL THE THINGS
+	allDevices := UseCache("cache", CMWikiScraper)()
 
 	fmt.Println()
 	fmt.Printf("%d devices in total.\n", len(allDevices))
@@ -53,6 +19,9 @@ func main() {
 	fmt.Println("valid options....")
 	fmt.Println()
 
+	// Declare filters.
+	// **EDIT HERE** if you have different opinions.
+	// You can see what's in the vital stats struct in "./stuff/vitals.go".
 	filters := []filter{
 		{"discard phablet", func(device Vitalstats) bool {
 			return device.Type != "phablet"
@@ -73,7 +42,7 @@ func main() {
 		}},
 	}
 
-	//var survivingDevices []Vitalstats
+	// Apply the filters.
 	for _, filter := range filters {
 		fmt.Printf("filtering %q... ", filter.name)
 		survivingDevices := make([]Vitalstats, 0)
@@ -86,51 +55,10 @@ func main() {
 		allDevices = survivingDevices
 	}
 
+	// Spit em all out, whatever's left.
 	for _, device := range allDevices {
 		json.NewEncoder(os.Stdout).Encode(device)
 	}
-}
-
-func scrape() []Vitalstats {
-	allDevices := make([]Vitalstats, 0, 400)
-
-	doc, err := goquery.NewDocument("http://wiki.cyanogenmod.org/w/Devices")
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	devicesSelection := doc.Find("span.device")
-	devicesCount := len(devicesSelection.Nodes)
-	devicesSelection.Each(func(i int, s *goquery.Selection) {
-		vitals := Vitalstats{}
-
-		vitals.Name = s.Find("span.name").Text()
-		vitals.Link = s.Find("a").AttrOr("href", "")
-
-		// lol they implode if you strcat and get a "//" after the tld
-		doc2, err := goquery.NewDocument("http://wiki.cyanogenmod.org" + vitals.Link)
-		if err != nil {
-			log.Fatal(err)
-		}
-		doc2.Find("div#mw-content-text table tr").Each(func(_ int, s *goquery.Selection) {
-			val := strings.TrimSpace(s.Find("td").Text())
-			switch strings.TrimSpace(s.Find("th").Text()) {
-			case "Power:":
-				vitals.Power = val
-			case "Release Date:":
-				vitals.ReleaseDate = val
-			case "Type:":
-				vitals.Type = val
-			case "CM Support:":
-				vitals.CMSupport = val
-			}
-		})
-
-		allDevices = append(allDevices, vitals)
-		fmt.Fprintf(os.Stderr, "scanned device %d/%d\n", i, devicesCount)
-	})
-
-	return allDevices
 }
 
 type filter struct {
