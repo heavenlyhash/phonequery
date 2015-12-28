@@ -30,12 +30,10 @@ func main() {
 			return device.Type != "tablet"
 		}},
 		{"discard known non-removable batt", func(device Vitalstats) bool {
-			return !strings.Contains(device.Power, "on-removable") && // skip leading 'n' because case
-				!strings.Contains(device.Power, "un-removable") // lol
+			return device.BatteryRem != "no"
 		}},
 		{"require definitely removable batt", func(device Vitalstats) bool {
-			return strings.Contains(device.Power, "removable") ||
-				strings.Contains(device.Power, "removeable") // lol
+			return device.BatteryRem == "yes"
 		}},
 		{"require latest CM", func(device Vitalstats) bool {
 			return strings.Contains(device.CMSupport, "12") || // still most common

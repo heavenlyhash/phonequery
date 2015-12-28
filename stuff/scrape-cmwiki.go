@@ -45,6 +45,17 @@ var CMWikiScraper = func() []Vitalstats {
 				vitals.CMSupport = val
 			}
 		})
+		// attempt to normalize battery type reports.  CMwiki is not very consistent
+		switch {
+		case strings.Contains(vitals.Power, "on-removable"), // skip leading 'n' because case
+			strings.Contains(vitals.Power, "un-removable"): // lolspelling
+			vitals.BatteryRem = "no"
+		case strings.Contains(vitals.Power, "removable"),
+			strings.Contains(vitals.Power, "removeable"): // lolspelling
+			vitals.BatteryRem = "yes"
+		default:
+			vitals.BatteryRem = "unk"
+		}
 
 		allDevices = append(allDevices, vitals)
 		fmt.Fprintf(os.Stderr, "scanned device %d/%d\n", i, devicesCount)
