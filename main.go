@@ -11,7 +11,7 @@ import (
 
 func main() {
 	// Fetch ALL THE THINGS
-	allDevices := UseCache("cache", CMWikiScraper)()
+	allDevices := UseCache("cache/cmwiki", CMWikiScraper)()
 
 	fmt.Println()
 	fmt.Printf("%d devices in total.\n", len(allDevices))
