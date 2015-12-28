@@ -38,7 +38,8 @@ func main() {
 				strings.Contains(device.Power, "removeable") // lol
 		}},
 		{"require latest CM", func(device Vitalstats) bool {
-			return strings.Contains(device.CMSupport, "12")
+			return strings.Contains(device.CMSupport, "12") || // still most common
+				strings.Contains(device.CMSupport, "13") // leading edge
 		}},
 	}
 
