@@ -9,30 +9,38 @@
 {"Name":"Asus Transformer Prime","Link":"/w/Tf201_Info","Power":"6580 mAh internal rechargeable lithium-ion battery","BatteryRem":"unk","ReleaseDate":"December 1, 2011","Type":"tablet","CMSupport":"9, 10.1"}
 {"Name":"Asus Transformer Pad","Link":"/w/Tf300t_Info","Power":"5950 mAh internal rechargeable lithium-ion battery","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"9, 10, 10.1, 10.2, 11, 12, 12.1"}
 {"Name":"Asus Transformer Pad Infinity","Link":"/w/Tf700t_Info","Power":"9.5hr25Wh Li-polymer","BatteryRem":"unk","ReleaseDate":"2011 August 31","Type":"tablet","CMSupport":"10, 10.1, 10.2, 11"}
-{"Name":"Asus Transformer Pad","Link":"/w/Tf701t_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"11"}
+{"Name":"Asus Transformer Pad","Link":"/w/Tf701t_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"11, 12.1"}
+{"Name":"Asus Zenfone 2 (720p)","Link":"/w/Z008_Info","Power":"3000mAh","BatteryRem":"unk","ReleaseDate":"March 2015","Type":"phone","CMSupport":"13"}
+{"Name":"Asus Zenfone 2 (1080p)","Link":"/w/Z00A_Info","Power":"3000mAh","BatteryRem":"unk","ReleaseDate":"March 2015","Type":"phone","CMSupport":"13"}
+{"Name":"Asus Zenfone 2 Laser (720p)","Link":"/w/Z00L_Info","Power":"3000 mAh","BatteryRem":"unk","ReleaseDate":"2015 November","Type":"phone","CMSupport":"13"}
+{"Name":"Asus Zenfone 2 Laser/Selfie (1080p)","Link":"/w/Z00T_Info","Power":"3000 mAh","BatteryRem":"unk","ReleaseDate":"2015 November","Type":"phone","CMSupport":"13"}
 {"Name":"Barnes \u0026 Noble Nook Color","Link":"/w/Encore_Info","Power":"4000 mAh internal rechargeable non-removable lithium-ion polymer battery","BatteryRem":"no","ReleaseDate":"","Type":"tablet","CMSupport":"7, 10, 10.1, 10.2, 11"}
-{"Name":"Barnes \u0026 Noble Nook Tablet","Link":"/w/Acclaim_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
+{"Name":"Barnes \u0026 Noble Nook Tablet","Link":"/w/Acclaim_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"10.1, 10.2, 11, 12, 12.1, 13"}
 {"Name":"Barnes \u0026 Noble Nook HD","Link":"/w/Hummingbird_Info","Power":"","BatteryRem":"unk","ReleaseDate":"2012 November 8","Type":"tablet","CMSupport":"10.1, 10.2, 11"}
 {"Name":"Barnes \u0026 Noble Nook HD+","Link":"/w/Ovation_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"10.1, 10.2, 11"}
+{"Name":"BQ Aquaris X5","Link":"/w/Paella_Info","Power":"2900 mAh LiPo","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"12.1"}
 {"Name":"Commtiva z71","Link":"/w/Z71_Info","Power":"1230 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"7"}
 {"Name":"Geeksphone One","Link":"/w/One_Info","Power":"1110 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"7"}
 {"Name":"Geeksphone Zero","Link":"/w/Zero_Info","Power":"1150 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"7"}
-{"Name":"Google Galaxy Nexus (GSM)","Link":"/w/Maguro_Info","Power":"1750 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2011 November 17 (UK)2011 December 8 (CANADA)","Type":"phone","CMSupport":"9, 10, 10.1, 10.2, 11"}
-{"Name":"Google Galaxy Nexus (Sprint)","Link":"/w/Toroplus_Info","Power":"1850 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2012 April 22 (USA)","Type":"phone","CMSupport":"9, 10, 10.1, 10.2, 11"}
-{"Name":"Google Galaxy Nexus (Verizon)","Link":"/w/Toro_Info","Power":"1850 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2011 December 15 (USA)","Type":"phone","CMSupport":"9, 10, 10.1, 10.2, 11"}
+{"Name":"Google Android One 2014","Link":"/w/Sprout_Info","Power":"1700mAh L","BatteryRem":"unk","ReleaseDate":"2014 September","Type":"phone","CMSupport":"11"}
+{"Name":"Google Android One 2014","Link":"/w/Sprout4_Info","Power":"1700mAh L","BatteryRem":"unk","ReleaseDate":"2014 September","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"Google Android One 2014","Link":"/w/Sprout8_Info","Power":"1700mAh L","BatteryRem":"unk","ReleaseDate":"2014 September","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"Google Galaxy Nexus (GSM)","Link":"/w/Maguro_Info","Power":"1750 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2011 November 17 (UK)2011 December 8 (CANADA)","Type":"phone","CMSupport":"9, 10, 10.1, 10.2, 11, 12.1"}
+{"Name":"Google Galaxy Nexus (Sprint)","Link":"/w/Toroplus_Info","Power":"1850 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2012 April 22 (USA)","Type":"phone","CMSupport":"9, 10, 10.1, 10.2, 11, 12.1"}
+{"Name":"Google Galaxy Nexus (Verizon)","Link":"/w/Toro_Info","Power":"1850 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2011 December 15 (USA)","Type":"phone","CMSupport":"9, 10, 10.1, 10.2, 11, 12.1"}
 {"Name":"Google Nexus Player","Link":"/w/Fugu_Info","Power":"","BatteryRem":"unk","ReleaseDate":"2014 November 3","Type":"media device","CMSupport":"12.1"}
-{"Name":"Google Nexus 4","Link":"/w/Mako_Info","Power":"3.8 V 2100 mAh, 8 Wh rechargable Lithium polymer non-removable battery","BatteryRem":"no","ReleaseDate":"November 13, 2012","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
+{"Name":"Google Nexus 4","Link":"/w/Mako_Info","Power":"3.8 V 2100 mAh, 8 Wh rechargable Lithium polymer non-removable battery","BatteryRem":"no","ReleaseDate":"November 13, 2012","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1, 13"}
 {"Name":"Google Nexus 5","Link":"/w/Hammerhead_Info","Power":"2300 mAh","BatteryRem":"unk","ReleaseDate":"2013 October 31","Type":"phone","CMSupport":"11, 12, 12.1, 13"}
-{"Name":"Google Nexus 5x","Link":"/w/Bullhead_Info","Power":"2700mAh","BatteryRem":"unk","ReleaseDate":"2015 September 29","Type":"phone","CMSupport":"13"}
+{"Name":"Google Nexus 5X","Link":"/w/Bullhead_Info","Power":"2700mAh","BatteryRem":"unk","ReleaseDate":"2015 September 29","Type":"phone","CMSupport":"13"}
 {"Name":"Google Nexus 6","Link":"/w/Shamu_Info","Power":"Non-removable Li-Po 3220 mAh","BatteryRem":"no","ReleaseDate":"29 October 2014","Type":"phablet","CMSupport":"12, 12.1, 13"}
-{"Name":"Google Nexus 6P","Link":"/w/Angler_Info","Power":"3450mAh","BatteryRem":"unk","ReleaseDate":"2015 September 29","Type":"phablet","CMSupport":"13"}
+{"Name":"Google Nexus 6P","Link":"/w/Angler_Info","Power":"3450 mAh","BatteryRem":"unk","ReleaseDate":"2015 September 29","Type":"phablet","CMSupport":"13"}
 {"Name":"Google Nexus 7 (Wi-Fi, 2012 version)","Link":"/w/Grouper_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"10, 10.1, 10.2, 11, 12, 12.1"}
 {"Name":"Google Nexus 7 (GSM, 2012 version)","Link":"/w/Tilapia_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"10, 10.1, 10.2, 11, 12, 12.1"}
 {"Name":"Google Nexus 7 (Wi-Fi, 2013 version)","Link":"/w/Flo_Info","Power":"3950 mAh","BatteryRem":"unk","ReleaseDate":"2013 July 26","Type":"tablet","CMSupport":"10.2, 11, 12, 12.1, 13"}
 {"Name":"Google Nexus 7 (LTE, 2013 version)","Link":"/w/Deb_Info","Power":"3950 mAh","BatteryRem":"unk","ReleaseDate":"2013 September 9","Type":"tablet","CMSupport":"10.2, 11, 12, 12.1, 13"}
-{"Name":"Google Nexus 9 (LTE)","Link":"/w/Flounder_lte_Info","Power":"Non-removable lithium-ion polymer 6700 mAh","BatteryRem":"no","ReleaseDate":"2014 November 3","Type":"tablet","CMSupport":"12.1"}
+{"Name":"Google Nexus 9 (LTE)","Link":"/w/Flounder_lte_Info","Power":"Non-removable lithium-ion polymer 6700 mAh","BatteryRem":"no","ReleaseDate":"2014 November 3","Type":"tablet","CMSupport":"12.1, 13"}
 {"Name":"Google Nexus 9 (Wi-Fi)","Link":"/w/Flounder_Info","Power":"Non-removable lithium-ion polymer 6700 mAh","BatteryRem":"no","ReleaseDate":"2014 November 3","Type":"tablet","CMSupport":"12, 12.1, 13"}
-{"Name":"Google Nexus 10","Link":"/w/Manta_Info","Power":"Internal rechargeable non-removable lithium-ion polymer 9000 mAh battery","BatteryRem":"no","ReleaseDate":"2012 November 13","Type":"tablet","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
+{"Name":"Google Nexus 10","Link":"/w/Manta_Info","Power":"Internal rechargeable non-removable lithium-ion polymer 9000 mAh battery","BatteryRem":"no","ReleaseDate":"2012 November 13","Type":"tablet","CMSupport":"10.1, 10.2, 11, 12, 12.1, 13"}
 {"Name":"Google Nexus One","Link":"/w/Passion_Info","Power":"1400 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2010 January 5 (USA, UK, HONG KONG)2010 March 16 (CANADA)2010 April 30 (SINGAPORE)2010 May 28 (ITALY)","Type":"phone","CMSupport":"7"}
 {"Name":"Google Nexus Q","Link":"/w/Steelhead_Info","Power":"Integrated 35W switching power supply. World-ready 50/60Hz 85-265V AC input","BatteryRem":"unk","ReleaseDate":"2012 June 27","Type":"media device","CMSupport":"10.1, 10.2"}
 {"Name":"Google Nexus S","Link":"/w/Crespo_Info","Power":"1500 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2010 December 16","Type":"phone","CMSupport":"7, 9, 10, 10.1, 10.2, 11"}
@@ -44,6 +52,7 @@
 {"Name":"HTC Desire (GSM)","Link":"/w/Bravo_Info","Power":"1400 mAh internal, rechargeable, removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2010 February 16 (Europe)","Type":"phone","CMSupport":"7"}
 {"Name":"HTC Desire (CDMA)","Link":"/w/Bravoc_Info","Power":"1400 mAh internal, rechargeable, removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2010 September 1 (USA)","Type":"phone","CMSupport":"7"}
 {"Name":"HTC Desire 816","Link":"/w/A5_Info","Power":"2600 mAh","BatteryRem":"unk","ReleaseDate":"2014 April","Type":"phone","CMSupport":"11, 12"}
+{"Name":"HTC Desire 816 Dual SIM","Link":"/w/A5dwg_Info","Power":"2600 mAh","BatteryRem":"unk","ReleaseDate":"2014 April","Type":"phone","CMSupport":"13"}
 {"Name":"HTC Desire HD / Inspire 4G","Link":"/w/Ace_Info","Power":"1230 mAh Internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2010 October 19 (EUR)2011 February 13 (USA)","Type":"phone","CMSupport":"7"}
 {"Name":"HTC Desire S","Link":"/w/Saga_Info","Power":"1450 mAh internal, rechargeable, removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2011 April 6 (UK)2011 April 8 (AUS)","Type":"phone","CMSupport":"7"}
 {"Name":"HTC Droid DNA","Link":"/w/Dlx_Info","Power":"2020 mAh","BatteryRem":"unk","ReleaseDate":"2013 March","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
@@ -72,6 +81,10 @@
 {"Name":"HTC One (Verizon)","Link":"/w/M7vzw_Info","Power":"2300 mAh","BatteryRem":"unk","ReleaseDate":"2013 March","Type":"phone","CMSupport":"10.2, 11, 12, 12.1"}
 {"Name":"HTC One (M8)","Link":"/w/M8_Info","Power":"2600 mAh","BatteryRem":"unk","ReleaseDate":"2014 March","Type":"phone","CMSupport":"11, 12, 12.1, 13"}
 {"Name":"HTC One (M8) Dual SIM","Link":"/w/M8d_Info","Power":"2600 mAh","BatteryRem":"unk","ReleaseDate":"2014 June","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"HTC One A9 (GSM International)","Link":"/w/Hiaeuhl_Info","Power":"2150 mAh, Quick Charge 2.0","BatteryRem":"unk","ReleaseDate":"2015 November","Type":"phone","CMSupport":"13"}
+{"Name":"HTC One A9 (GSM US)","Link":"/w/Hiaeul_Info","Power":"2150 mAh, Quick Charge 2.0","BatteryRem":"unk","ReleaseDate":"2015 November","Type":"phone","CMSupport":"13"}
+{"Name":"HTC One M9 (GSM)","Link":"/w/Himaul_Info","Power":"2840 mAh","BatteryRem":"unk","ReleaseDate":"2015 March","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"HTC One M9 (Verizon)","Link":"/w/Himawl_Info","Power":"2840 mAh","BatteryRem":"unk","ReleaseDate":"2015 March","Type":"phone","CMSupport":"13"}
 {"Name":"HTC One Max (GSM)","Link":"/w/T6_Info","Power":"3300 mAh","BatteryRem":"unk","ReleaseDate":"2013 October","Type":"phone","CMSupport":"11, 12, 12.1"}
 {"Name":"HTC One Max (Sprint)","Link":"/w/T6spr_Info","Power":"3300 mAh","BatteryRem":"unk","ReleaseDate":"2013 October","Type":"phone","CMSupport":"11, 12, 12.1"}
 {"Name":"HTC One Max (Verizon)","Link":"/w/T6vzw_Info","Power":"3300 mAh","BatteryRem":"unk","ReleaseDate":"2013 October","Type":"phone","CMSupport":"11, 12, 12.1"}
@@ -83,29 +96,35 @@
 {"Name":"HTC Sensation","Link":"/w/Pyramid_Info","Power":"1520 mAh Internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2011 May 19 (UK) 2011 June 21 (USA)","Type":"phone","CMSupport":"9, 10"}
 {"Name":"HTC Tattoo","Link":"/w/Click_Info","Power":"1100 mAh internal, rechargeable, removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2009 October (USA)","Type":"phone","CMSupport":"7"}
 {"Name":"HTC Wildfire","Link":"/w/Buzz_Info","Power":"1300 mAh internal, rechargeable, removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2010 May (USA)","Type":"phone","CMSupport":"7"}
-{"Name":"Huawei Honor 4/4X (Unified)","Link":"/w/Cherry_Info","Power":"Li-Ion 2000 / 3000 mAh battery","BatteryRem":"unk","ReleaseDate":"","Type":"phablet","CMSupport":"12.1"}
+{"Name":"Huawei Honor 4/4X (Unified)","Link":"/w/Cherry_Info","Power":"Li-Ion 2000 / 3000 mAh battery","BatteryRem":"unk","ReleaseDate":"","Type":"phablet","CMSupport":"12.1, 13"}
 {"Name":"Huawei SnapTo","Link":"/w/G620_a2_Info","Power":"Non-removable Li-Ion 2200 mAh battery","BatteryRem":"no","ReleaseDate":"2015 April","Type":"phone","CMSupport":"12.1"}
-{"Name":"Huawei Ascend Mate 2 4G","Link":"/w/Mt2_Info","Power":"Li-Ion 4050 mAh battery","BatteryRem":"unk","ReleaseDate":"","Type":"phablet","CMSupport":"12.1"}
+{"Name":"Huawei Ascend Mate 2 4G","Link":"/w/Mt2_Info","Power":"Li-Ion 4050 mAh battery","BatteryRem":"unk","ReleaseDate":"","Type":"phablet","CMSupport":"12.1, 13"}
 {"Name":"Huawei IDEOS","Link":"/w/U8150_Info","Power":"1200 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2010 September (INT)","Type":"phone","CMSupport":"7"}
 {"Name":"Huawei Vodafone Smart","Link":"/w/U8160_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"7"}
 {"Name":"Huawei T-Mobile Pulse","Link":"/w/U8220_Info","Power":"1150 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2009 October (UK)","Type":"phone","CMSupport":"7"}
 {"Name":"LG G Pad 7.0 (Wi-Fi)","Link":"/w/V400_Info","Power":"4000 mAh","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"12.1, 13"}
 {"Name":"LG G Pad 7.0 (LTE)","Link":"/w/V410_Info","Power":"4000 mAh","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"12.1, 13"}
 {"Name":"LG G Pad 8.3","Link":"/w/V500_Info","Power":"Non-removable 4,600 mAh Li-Polymer","BatteryRem":"no","ReleaseDate":"14 October 2013","Type":"tablet","CMSupport":"11, 12, 12.1"}
-{"Name":"LG G2","Link":"/w/D802_Info","Power":"Non-removable Li-Pol 3,000 mAh","BatteryRem":"no","ReleaseDate":"2013 September 12","Type":"phone","CMSupport":"10.2, 11, 12, 12.1"}
-{"Name":"LG G2 (AT\u0026T)","Link":"/w/D800_Info","Power":"Non-removable Li-Pol 3,000 mAh","BatteryRem":"no","ReleaseDate":"2013 September 12","Type":"phone","CMSupport":"10.2, 11, 12, 12.1"}
-{"Name":"LG G2 (Canadian)","Link":"/w/D803_Info","Power":"Non-removable Li-Pol 3,000 mAh","BatteryRem":"no","ReleaseDate":"2013 September 12","Type":"phone","CMSupport":"12.1"}
+{"Name":"LG G2","Link":"/w/D802_Info","Power":"Non-removable Li-Pol 3,000 mAh","BatteryRem":"no","ReleaseDate":"2013 September 12","Type":"phone","CMSupport":"10.2, 11, 12, 12.1, 13"}
+{"Name":"LG G2 (AT\u0026T)","Link":"/w/D800_Info","Power":"Non-removable Li-Pol 3,000 mAh","BatteryRem":"no","ReleaseDate":"2013 September 12","Type":"phone","CMSupport":"10.2, 11, 12, 12.1, 13"}
+{"Name":"LG G2 (Canadian)","Link":"/w/D803_Info","Power":"Non-removable Li-Pol 3,000 mAh","BatteryRem":"no","ReleaseDate":"2013 September 12","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"LG G2 (Docomo)","Link":"/w/L01f_Info","Power":"Non-removable Li-Pol 3,000 mAh","BatteryRem":"no","ReleaseDate":"2013 September 12","Type":"phone","CMSupport":"11, 12.1, 13"}
 {"Name":"LG G2 (Sprint)","Link":"/w/Ls980_Info","Power":"Li-Pol 3000 mAh","BatteryRem":"unk","ReleaseDate":"2013 November 21","Type":"phone","CMSupport":"10.2, 11, 12.1"}
-{"Name":"LG G2 (T-Mobile)","Link":"/w/D801_Info","Power":"Non-removable Li-Pol 3,000 mAh","BatteryRem":"no","ReleaseDate":"2013 September 12","Type":"phone","CMSupport":"10.2, 11, 12.1"}
-{"Name":"LG G2 (Verizon)","Link":"/w/Vs980_Info","Power":"Non-removable Li-Pol 3,000 mAh","BatteryRem":"no","ReleaseDate":"2013 September 12","Type":"phone","CMSupport":"10.2, 11, 12.1"}
-{"Name":"LG G3","Link":"/w/D855_Info","Power":"removeable Li-Ion 3000 mAh battery","BatteryRem":"yes","ReleaseDate":"2014 May 28","Type":"phone","CMSupport":"12, 12.1"}
-{"Name":"LG G3 (AT\u0026T)","Link":"/w/D850_Info","Power":"removeable Li-Ion 3000 mAh battery","BatteryRem":"yes","ReleaseDate":"2014 May 28","Type":"phone","CMSupport":"12.1"}
-{"Name":"LG G3 (Canadian)","Link":"/w/D852_Info","Power":"removeable Li-Ion 3000 mAh battery","BatteryRem":"yes","ReleaseDate":"2014 May 28","Type":"phone","CMSupport":"12.1"}
-{"Name":"LG G3 (Korea)","Link":"/w/F400_Info","Power":"removeable Li-Ion 3000 mAh battery","BatteryRem":"yes","ReleaseDate":"2014 May 28","Type":"phone","CMSupport":"12.1, 13"}
-{"Name":"LG G3 (Sprint)","Link":"/w/Ls990_Info","Power":"removeable Li-Ion 3000 mAh battery","BatteryRem":"yes","ReleaseDate":"2014 May 28","Type":"phone","CMSupport":"12.1"}
-{"Name":"LG G3 (T-Mobile)","Link":"/w/D851_Info","Power":"removable Li-Ion 3000 mAh battery","BatteryRem":"yes","ReleaseDate":"2014 May 28","Type":"phone","CMSupport":"12.1"}
-{"Name":"LG G3 (Verizon)","Link":"/w/Vs985_Info","Power":"3000 mAh","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"12, 12.1, 13"}
+{"Name":"LG G2 (T-Mobile)","Link":"/w/D801_Info","Power":"Non-removable Li-Pol 3,000 mAh","BatteryRem":"no","ReleaseDate":"2013 September 12","Type":"phone","CMSupport":"10.2, 11, 12.1, 13"}
+{"Name":"LG G2 (Verizon)","Link":"/w/Vs980_Info","Power":"Non-removable Li-Pol 3,000 mAh","BatteryRem":"no","ReleaseDate":"2013 September 12","Type":"phone","CMSupport":"10.2, 11, 12.1, 13"}
+{"Name":"LG G2 Mini","Link":"/w/G2m_Info","Power":"2440 mAh","BatteryRem":"unk","ReleaseDate":"2014, April","Type":"phone","CMSupport":"13"}
 {"Name":"LG G2x","Link":"/w/P999_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"7"}
+{"Name":"LG G3 (International)","Link":"/w/D855_Info","Power":"3000 mAh","BatteryRem":"unk","ReleaseDate":"May 2014","Type":"phone","CMSupport":"12, 12.1, 13"}
+{"Name":"LG G3 (AT\u0026T)","Link":"/w/D850_Info","Power":"removeable Li-Ion 3000 mAh battery","BatteryRem":"yes","ReleaseDate":"2014 May 28","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"LG G3 (Canadian)","Link":"/w/D852_Info","Power":"removeable Li-Ion 3000 mAh battery","BatteryRem":"yes","ReleaseDate":"2014 May 28","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"LG G3 (Korea)","Link":"/w/F400_Info","Power":"removeable Li-Ion 3000 mAh battery","BatteryRem":"yes","ReleaseDate":"2014 May 28","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"LG G3 (Sprint)","Link":"/w/Ls990_Info","Power":"removeable Li-Ion 3000 mAh battery","BatteryRem":"yes","ReleaseDate":"2014 May 28","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"LG G3 (T-Mobile)","Link":"/w/D851_Info","Power":"removable Li-Ion 3000 mAh battery","BatteryRem":"yes","ReleaseDate":"2014 May 28","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"LG G3 (Verizon)","Link":"/w/Vs985_Info","Power":"3000 mAh","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"12, 12.1, 13"}
+{"Name":"LG G3 Beat","Link":"/w/Jagnm_Info","Power":"removable Li-Ion 2540 mAh battery","BatteryRem":"yes","ReleaseDate":"2014 August","Type":"phone","CMSupport":"13"}
+{"Name":"LG G3 S","Link":"/w/Jag3gds_Info","Power":"removable Li-Ion 2540 mAh battery","BatteryRem":"yes","ReleaseDate":"2014 August","Type":"phone","CMSupport":"13"}
+{"Name":"LG G4 (International)","Link":"/w/H815_Info","Power":"3000 mAh","BatteryRem":"unk","ReleaseDate":"June 2015","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"LG G4 (T-Mobile)","Link":"/w/H811_Info","Power":"3000 mAh","BatteryRem":"unk","ReleaseDate":"June 2015","Type":"phone","CMSupport":"12.1, 13"}
 {"Name":"LG myTouch","Link":"/w/E739_Info","Power":"1500 mAh LiIon","BatteryRem":"unk","ReleaseDate":"2011 November","Type":"phone","CMSupport":"7, 9"}
 {"Name":"LG MyTouch Q","Link":"/w/C800_Info","Power":"Li-Ion 1500 mAh battery","BatteryRem":"unk","ReleaseDate":"","Type":"phone (slider)","CMSupport":"9"}
 {"Name":"LG Nitro HD / Optimus 4G LTE","Link":"/w/P930_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"10, 10.1, 10.2, 11"}
@@ -124,6 +143,8 @@
 {"Name":"LG Optimus L5","Link":"/w/E610_Info","Power":"1500 mAh","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"10"}
 {"Name":"LG Optimus L7","Link":"/w/P700_Info","Power":"1700 mAh","BatteryRem":"unk","ReleaseDate":"2012 July","Type":"phone","CMSupport":"10"}
 {"Name":"LG Optimus L9","Link":"/w/P760_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"10.1, 10.2"}
+{"Name":"LG Optimus L70","Link":"/w/W5_Info","Power":"2040 mAh","BatteryRem":"unk","ReleaseDate":"2014 April","Type":"phone","CMSupport":"13"}
+{"Name":"LG Optimus L90","Link":"/w/W7_Info","Power":"2460 mAh","BatteryRem":"unk","ReleaseDate":"2014 March","Type":"phone","CMSupport":"11, 13"}
 {"Name":"LG Optimus LTE (SK Telecom)","Link":"/w/Su640_Info","Power":"Li-Ion 1830 mAh battery","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"9, 10, 10.1"}
 {"Name":"LG Optimus Me","Link":"/w/P350_Info","Power":"1280 mAh","BatteryRem":"unk","ReleaseDate":"2011 February","Type":"phone","CMSupport":"7"}
 {"Name":"LG Optimus One","Link":"/w/P500_Info","Power":"1500 mAh","BatteryRem":"unk","ReleaseDate":"October 2010","Type":"phone","CMSupport":"7"}
@@ -131,8 +152,7 @@
 {"Name":"LG Optimus Sol","Link":"/w/E730_Info","Power":"Li-Ion 1500 mAh battery","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"7, 9"}
 {"Name":"LG Spectrum","Link":"/w/Vs920_Info","Power":"1830 mAh Li-Ion","BatteryRem":"unk","ReleaseDate":"2012 Jan 19","Type":"phone","CMSupport":"10.1, 10.2, 11"}
 {"Name":"LG Thrill 4G","Link":"/w/P925_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"7"}
-{"Name":"LG G4","Link":"/w/H811_Info","Power":"3000 mAh","BatteryRem":"unk","ReleaseDate":"June 2015","Type":"phone","CMSupport":"12.1"}
-{"Name":"LG G4","Link":"/w/H815_Info","Power":"3000 mAh","BatteryRem":"unk","ReleaseDate":"June 2015","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"LG V10 (T-Mobile)","Link":"/w/H901_Info","Power":"3000 mAh","BatteryRem":"unk","ReleaseDate":"November 2015","Type":"phone","CMSupport":"12.1"}
 {"Name":"Motorola Atrix 4G","Link":"/w/Olympus_Info","Power":"1700 mAh internal rechargeableremovable lithium-ion polymer battery","BatteryRem":"yes","ReleaseDate":"2011 August 5","Type":"phone","CMSupport":"7"}
 {"Name":"Motorola Atrix HD","Link":"/w/Mb886_Info","Power":"Non-removable Li-Ion 1780 mAh battery","BatteryRem":"no","ReleaseDate":"2012 July","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
 {"Name":"Motorola Backflip","Link":"/w/Motus_Info","Power":"","BatteryRem":"unk","ReleaseDate":"2010 March 7","Type":"phone","CMSupport":"7"}
@@ -143,41 +163,47 @@
 {"Name":"Motorola Droid 2","Link":"/w/Droid2_Info","Power":"1400 mAh internal rechargeable removable lithium-ion polymer battery","BatteryRem":"yes","ReleaseDate":"2010 August 12","Type":"phone (slider)","CMSupport":"7"}
 {"Name":"Motorola Droid 2 Global","Link":"/w/Droid2we_Info","Power":"1400 mAh internal rechargeable removable lithium-ion polymer battery","BatteryRem":"yes","ReleaseDate":"2010 November 11 (USA)","Type":"phone (slider)","CMSupport":"7"}
 {"Name":"Motorola Droid 3","Link":"/w/Solana_Info","Power":"1540 mAh","BatteryRem":"unk","ReleaseDate":"2011 July 7","Type":"phone","CMSupport":"10.1"}
-{"Name":"Motorola Droid 4","Link":"/w/Maserati_Info","Power":"1785 mAh","BatteryRem":"unk","ReleaseDate":"2012 February 10","Type":"phone (slider)","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
-{"Name":"Motorola Droid Bionic","Link":"/w/Targa_Info","Power":"1735 mAh","BatteryRem":"unk","ReleaseDate":"2011 September 8","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
+{"Name":"Motorola Droid 4","Link":"/w/Maserati_Info","Power":"1785 mAh","BatteryRem":"unk","ReleaseDate":"2012 February 10","Type":"phone (slider)","CMSupport":"10.1, 10.2, 11, 12, 12.1, 13"}
+{"Name":"Motorola Droid Bionic","Link":"/w/Targa_Info","Power":"1735 mAh","BatteryRem":"unk","ReleaseDate":"2011 September 8","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1, 13"}
 {"Name":"Motorola Droid Mini / Ultra / MAXX","Link":"/w/Obake_Info","Power":"Droid Mini: 2000 mAh  Droid Ultra: 2130 mAh  Droid MAXX: 3500 mAh","BatteryRem":"unk","ReleaseDate":"2013 Aug 23","Type":"phone","CMSupport":"12, 12.1"}
-{"Name":"Motorola Droid RAZR/RAZR MAXX (CDMA)","Link":"/w/Spyder_Info","Power":"1780 mAh","BatteryRem":"unk","ReleaseDate":"2011 November 11","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
+{"Name":"Motorola Droid RAZR/RAZR MAXX (CDMA)","Link":"/w/Spyder_Info","Power":"1780 mAh","BatteryRem":"unk","ReleaseDate":"2011 November 11","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1, 13"}
 {"Name":"Motorola Droid RAZR HD/RAZR HD MAXX (CDMA)","Link":"/w/Xt926_Info","Power":"Non-removable Li-Po 2530 mAh battery","BatteryRem":"no","ReleaseDate":"2012 October","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
 {"Name":"Motorola Droid RAZR M","Link":"/w/Xt907_Info","Power":"Non-removable Li-Ion 2000 mAh battery","BatteryRem":"no","ReleaseDate":"2012 September","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
 {"Name":"Motorola Droid X","Link":"/w/Shadow_Info","Power":"1540 mAh internal rechargeableremovable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"2010 July 15 (USA)","Type":"phone","CMSupport":"7"}
-{"Name":"Motorola Moto E","Link":"/w/Condor_Info","Power":"1980 mAh","BatteryRem":"unk","ReleaseDate":"2014 May 13","Type":"phone","CMSupport":"12, 12.1"}
+{"Name":"Motorola Moto E","Link":"/w/Condor_Info","Power":"1980 mAh","BatteryRem":"unk","ReleaseDate":"2014 May 13","Type":"phone","CMSupport":"12, 12.1, 13"}
 {"Name":"Motorola Moto E 2015","Link":"/w/Otus_Info","Power":"2390 mAh","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"12.1, 13"}
-{"Name":"Motorola Moto E 2015 LTE","Link":"/w/Surnia_Info","Power":"2390 mAh","BatteryRem":"unk","ReleaseDate":"2015 February","Type":"phone","CMSupport":"12.1"}
+{"Name":"Motorola Moto E 2015 LTE","Link":"/w/Surnia_Info","Power":"2390 mAh","BatteryRem":"unk","ReleaseDate":"2015 February","Type":"phone","CMSupport":"12.1, 13"}
 {"Name":"Motorola Moto G","Link":"/w/Falcon_Info","Power":"2070 mAh","BatteryRem":"unk","ReleaseDate":"2013 November","Type":"phone","CMSupport":"11, 12, 12.1, 13"}
 {"Name":"Motorola Moto G 4G","Link":"/w/Peregrine_Info","Power":"2070 mAh","BatteryRem":"unk","ReleaseDate":"2014 June","Type":"phone","CMSupport":"11, 12, 12.1, 13"}
 {"Name":"Motorola Moto G 2014","Link":"/w/Titan_Info","Power":"2070 mAh","BatteryRem":"unk","ReleaseDate":"2014 June","Type":"phone","CMSupport":"12, 12.1, 13"}
 {"Name":"Motorola Moto G 2014 LTE","Link":"/w/Thea_Info","Power":"2390 mAh","BatteryRem":"unk","ReleaseDate":"2015 January","Type":"phone","CMSupport":"12.1, 13"}
-{"Name":"Motorola Moto G 2015","Link":"/w/Osprey_Info","Power":"2470 mAh","BatteryRem":"unk","ReleaseDate":"2015 July","Type":"phone","CMSupport":"12.1"}
-{"Name":"Motorola Moto MAXX","Link":"/w/Quark_Info","Power":"3900 mAh","BatteryRem":"unk","ReleaseDate":"2014 Nov 5","Type":"phone","CMSupport":"12, 12.1"}
+{"Name":"Motorola Moto G 2015","Link":"/w/Osprey_Info","Power":"2470 mAh","BatteryRem":"unk","ReleaseDate":"2015 July","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"Motorola Moto MAXX / Droid Turbo","Link":"/w/Quark_Info","Power":"3900 mAh","BatteryRem":"unk","ReleaseDate":"2014 Nov 5","Type":"phone","CMSupport":"12, 12.1, 13"}
 {"Name":"Motorola Moto X 2013","Link":"/w/Ghost_Info","Power":"2200 mAh","BatteryRem":"unk","ReleaseDate":"2013 Aug 23","Type":"phone","CMSupport":"11, 12, 12.1"}
 {"Name":"Motorola Moto X 2014","Link":"/w/Victara_Info","Power":"2300 mAh","BatteryRem":"unk","ReleaseDate":"2014 September 26","Type":"phone","CMSupport":"12, 12.1, 13"}
+{"Name":"Motorola Moto X Play","Link":"/w/Lux_Info","Power":"3630 mAh","BatteryRem":"unk","ReleaseDate":"2015 August","Type":"phone","CMSupport":"13"}
+{"Name":"Motorola Moto X Pure Edition/Style (2015)","Link":"/w/Clark_Info","Power":"3000 mAh","BatteryRem":"unk","ReleaseDate":"2015 September","Type":"phone","CMSupport":"13"}
 {"Name":"Motorola Photon 4G","Link":"/w/Sunfire_Info","Power":"1700 mAh","BatteryRem":"unk","ReleaseDate":"2011 July","Type":"phone","CMSupport":"7"}
-{"Name":"Motorola Photon Q","Link":"/w/Xt897_Info","Power":"Non-removable Li-Ion 1785 mAh battery","BatteryRem":"no","ReleaseDate":"2012 August","Type":"phone (slider)","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
+{"Name":"Motorola Photon Q","Link":"/w/Xt897_Info","Power":"Non-removable Li-Ion 1785 mAh battery","BatteryRem":"no","ReleaseDate":"2012 August","Type":"phone (slider)","CMSupport":"10.1, 10.2, 11, 12, 12.1, 13"}
 {"Name":"Motorola Photon Q (CDMA)","Link":"/w/Xt897c_Info","Power":"Non-removable Li-Ion 1785 mAh battery","BatteryRem":"no","ReleaseDate":"2012 August","Type":"phone (slider)","CMSupport":"10.1, 10.2, 11"}
-{"Name":"Motorola RAZR/RAZR MAXX (GSM)","Link":"/w/Umts_spyder_Info","Power":"1780 mAh/3300 mAh (MAXX)","BatteryRem":"unk","ReleaseDate":"2011 November 11","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
+{"Name":"Motorola RAZR/RAZR MAXX (GSM)","Link":"/w/Umts_spyder_Info","Power":"1780 mAh/3300 mAh (MAXX)","BatteryRem":"unk","ReleaseDate":"2011 November 11","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1, 13"}
 {"Name":"Motorola RAZR HD (GSM)","Link":"/w/Xt925_Info","Power":"Non-removable Li-Po 2500/2530 mAh battery (Up to 16h-2G / Up to 22h-3G)","BatteryRem":"no","ReleaseDate":"2012 September","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
 {"Name":"Motorola Xoom (CDMA)","Link":"/w/Stingray_Info","Power":"built-in battery","BatteryRem":"unk","ReleaseDate":"2011 March","Type":"tablet","CMSupport":"10, 10.1"}
 {"Name":"Motorola Xoom (GSM)","Link":"/w/Everest_Info","Power":"built-in battery","BatteryRem":"unk","ReleaseDate":"2011 April","Type":"tablet","CMSupport":"10, 10.1"}
 {"Name":"Motorola Xoom (Wi-Fi)","Link":"/w/Wingray_Info","Power":"built-in battery","BatteryRem":"unk","ReleaseDate":"2011 April","Type":"tablet","CMSupport":"9, 10, 10.1"}
-{"Name":"Nvidia Shield Portable","Link":"/w/Roth_Info","Power":"7350 mAh (28.8 W·h)","BatteryRem":"unk","ReleaseDate":"2013 July 31","Type":"Handheld game console","CMSupport":"12.1"}
+{"Name":"Nextbit Robin","Link":"/w/Ether_Info","Power":"2680 mAh","BatteryRem":"unk","ReleaseDate":"2015 August","Type":"phone","CMSupport":"13"}
+{"Name":"Nvidia Shield Portable","Link":"/w/Roth_Info","Power":"7350 mAh (28.8 W·h)","BatteryRem":"unk","ReleaseDate":"2013 July 31","Type":"Handheld game console","CMSupport":"12.1, 13"}
 {"Name":"Nvidia Shield Tablet","Link":"/w/Shieldtablet_Info","Power":"5197 mAh (19.75 W·h)","BatteryRem":"unk","ReleaseDate":"2014 July 29","Type":"tablet","CMSupport":"12.1"}
+{"Name":"OnePlus 2","Link":"/w/Oneplus2_Info","Power":"3300 mAh","BatteryRem":"unk","ReleaseDate":"2015 August 28","Type":"phone","CMSupport":"13"}
 {"Name":"OnePlus One","Link":"/w/Bacon_Info","Power":"3100 mAh","BatteryRem":"unk","ReleaseDate":"2014 June 6","Type":"phone","CMSupport":"11, 12, 12.1, 13"}
+{"Name":"OnePlus X","Link":"/w/Onyx_Info","Power":"2525 mAh LiPo","BatteryRem":"unk","ReleaseDate":"2015 November","Type":"phone","CMSupport":"13"}
 {"Name":"Oppo Find 5","Link":"/w/Find5_Info","Power":"2500 mAh, non-removable","BatteryRem":"no","ReleaseDate":"2013 February","Type":"phone","CMSupport":"10.1, 11, 12"}
-{"Name":"Oppo Find 7a","Link":"/w/Find7_Info","Power":"Removable 2800 mAh Li-Po with Rapid Charge","BatteryRem":"unk","ReleaseDate":"2014 March 19","Type":"phone","CMSupport":"11, 12, 12.1"}
-{"Name":"Oppo Find 7s","Link":"/w/Find7s_Info","Power":"Removable 3000 mAh Li-Po with Rapid Charge","BatteryRem":"unk","ReleaseDate":"2014 May 19","Type":"phone","CMSupport":"12, 12.1"}
+{"Name":"Oppo Find 7a","Link":"/w/Find7_Info","Power":"Removable 2800 mAh Li-Po with Rapid Charge","BatteryRem":"unk","ReleaseDate":"2014 March 19","Type":"phone","CMSupport":"11, 12, 12.1, 13"}
+{"Name":"Oppo Find 7s","Link":"/w/Find7s_Info","Power":"Removable 3000 mAh Li-Po with Rapid Charge","BatteryRem":"unk","ReleaseDate":"2014 May 19","Type":"phone","CMSupport":"12, 12.1, 13"}
 {"Name":"Oppo N1","Link":"/w/N1_Info","Power":"","BatteryRem":"unk","ReleaseDate":"2013 December","Type":"phone","CMSupport":"10.2, 11"}
-{"Name":"Oppo N3","Link":"/w/N3_Info","Power":"3000 mAh Li-Po with VOOC Flash Charge (un-removable)","BatteryRem":"no","ReleaseDate":"2015 January","Type":"phone","CMSupport":"12.1"}
-{"Name":"Oppo R7 Plus","Link":"/w/R7plus_Info","Power":"4100 mAh Li-Po","BatteryRem":"unk","ReleaseDate":"2015 May","Type":"phone","CMSupport":"12.1"}
+{"Name":"Oppo N3","Link":"/w/N3_Info","Power":"3000 mAh Li-Po with VOOC Flash Charge (un-removable)","BatteryRem":"no","ReleaseDate":"2015 January","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"Oppo R5/R5s (International)","Link":"/w/R5_Info","Power":"2000 mAh (Non-removable)","BatteryRem":"no","ReleaseDate":"2014 December","Type":"phone","CMSupport":"13"}
+{"Name":"Oppo R7 Plus","Link":"/w/R7plus_Info","Power":"4100 mAh Li-Po","BatteryRem":"unk","ReleaseDate":"2015 May","Type":"phone","CMSupport":"12.1, 13"}
 {"Name":"Samsung Captivate","Link":"/w/Captivatemtd_Info","Power":"1500 mAh","BatteryRem":"unk","ReleaseDate":"2010 July 18 (USA)2010 October 28 (CANADA)","Type":"phone","CMSupport":"7, 9, 10, 10.1, 10.2, 11"}
 {"Name":"Samsung Epic 4G","Link":"/w/Epicmtd_Info","Power":"1500 mAh","BatteryRem":"unk","ReleaseDate":"2010 August 31","Type":"phone","CMSupport":"7, 9, 10, 10.1, 11"}
 {"Name":"Samsung Fascinate","Link":"/w/Fascinatemtd_Info","Power":"1500 mAh","BatteryRem":"unk","ReleaseDate":"2010 September 8","Type":"phone","CMSupport":"7, 10.1"}
@@ -188,10 +214,10 @@
 {"Name":"Samsung Galaxy Note (AT\u0026T)","Link":"/w/Quincyatt_Info","Power":"2500 mAh","BatteryRem":"unk","ReleaseDate":"2012 February 19","Type":"phablet","CMSupport":"9, 10, 10.1, 10.2"}
 {"Name":"Samsung Galaxy Note (TMO)","Link":"/w/Quincytmo_Info","Power":"2500 mAh","BatteryRem":"unk","ReleaseDate":"2012 March 28","Type":"phablet","CMSupport":"10, 10.1, 10.2"}
 {"Name":"Samsung Galaxy Note 2","Link":"/w/N7100_Info","Power":"3100 mAh","BatteryRem":"unk","ReleaseDate":"2012 September","Type":"phablet","CMSupport":"10.1, 10.2, 11"}
-{"Name":"Samsung Galaxy Note 2 LTE","Link":"/w/T0lte_Info","Power":"","BatteryRem":"unk","ReleaseDate":"Dec 2012","Type":"phablet","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
-{"Name":"Samsung Galaxy Note 2 LTE (Sprint)","Link":"/w/L900_Info","Power":"","BatteryRem":"unk","ReleaseDate":"Dec 2012","Type":"phablet","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
+{"Name":"Samsung Galaxy Note 2 LTE","Link":"/w/T0lte_Info","Power":"","BatteryRem":"unk","ReleaseDate":"Dec 2012","Type":"phablet","CMSupport":"10.1, 10.2, 11, 12, 12.1, 13"}
+{"Name":"Samsung Galaxy Note 2 LTE (Sprint)","Link":"/w/L900_Info","Power":"","BatteryRem":"unk","ReleaseDate":"Dec 2012","Type":"phablet","CMSupport":"10.1, 10.2, 11, 12, 12.1, 13"}
 {"Name":"Samsung Galaxy Note 2 LTE (US Cellular)","Link":"/w/R950_Info","Power":"","BatteryRem":"unk","ReleaseDate":"Dec 2012","Type":"phablet","CMSupport":"10.1, 10.2, 11"}
-{"Name":"Samsung Galaxy Note 2 LTE (Verizon)","Link":"/w/I605_Info","Power":"","BatteryRem":"unk","ReleaseDate":"Dec 2012","Type":"phablet","CMSupport":"10.1, 11, 12, 12.1"}
+{"Name":"Samsung Galaxy Note 2 LTE (Verizon)","Link":"/w/I605_Info","Power":"","BatteryRem":"unk","ReleaseDate":"Dec 2012","Type":"phablet","CMSupport":"10.1, 11, 12, 12.1, 13"}
 {"Name":"Samsung Galaxy Note 3 LTE","Link":"/w/Hlte_Info","Power":"","BatteryRem":"unk","ReleaseDate":"25 Sep 2013","Type":"phablet","CMSupport":"11, 12, 12.1"}
 {"Name":"Samsung Galaxy Note 3 (International)","Link":"/w/Hltexx_Info","Power":"","BatteryRem":"unk","ReleaseDate":"25 Sep 2013","Type":"phablet","CMSupport":"11"}
 {"Name":"Samsung Galaxy Note 3 (Sprint)","Link":"/w/Hltespr_Info","Power":"","BatteryRem":"unk","ReleaseDate":"25 Sep 2013","Type":"phablet","CMSupport":"11, 12, 12.1"}
@@ -202,12 +228,14 @@
 {"Name":"Samsung Galaxy Note 4 Sprint","Link":"/w/Trltespr_Info","Power":"","BatteryRem":"unk","ReleaseDate":"2014 October 10","Type":"phablet","CMSupport":"12, 12.1"}
 {"Name":"Samsung Galaxy Note 4 T-Mobile","Link":"/w/Trltetmo_Info","Power":"","BatteryRem":"unk","ReleaseDate":"2014 October 10","Type":"phablet","CMSupport":"12, 12.1"}
 {"Name":"Samsung Galaxy Note 4 US Cellular","Link":"/w/Trlteusc_Info","Power":"","BatteryRem":"unk","ReleaseDate":"2014 October 10","Type":"phablet","CMSupport":"12"}
-{"Name":"Samsung Galaxy Note 8.0 (GSM)","Link":"/w/N5100_Info","Power":"4600mAh","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"10.2, 11, 12, 12.1"}
-{"Name":"Samsung Galaxy Note 8.0 (LTE)","Link":"/w/N5120_Info","Power":"4600mAh","BatteryRem":"unk","ReleaseDate":"13 May 2013","Type":"tablet","CMSupport":"11"}
-{"Name":"Samsung Galaxy Note 8.0 (Wi-Fi)","Link":"/w/N5110_Info","Power":"4600mAh","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"10.2, 11, 12, 12.1"}
+{"Name":"Samsung Galaxy Note 8.0 (GSM)","Link":"/w/N5100_Info","Power":"4600mAh","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"10.2, 11, 12, 12.1, 13"}
+{"Name":"Samsung Galaxy Note 8.0 (LTE)","Link":"/w/N5120_Info","Power":"4600mAh","BatteryRem":"unk","ReleaseDate":"13 May 2013","Type":"tablet","CMSupport":"11, 13"}
+{"Name":"Samsung Galaxy Note 8.0 (Wi-Fi)","Link":"/w/N5110_Info","Power":"4600mAh","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"10.2, 11, 12, 12.1, 13"}
 {"Name":"Samsung Galaxy Note 10.1 (Wi-Fi)","Link":"/w/N8013_Info","Power":"7000mAh","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"10.1, 10.2"}
 {"Name":"Samsung Galaxy Note 10.1 (GSM)","Link":"/w/N8000_Info","Power":"7000mAh","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"10.1, 10.2"}
-{"Name":"Samsung Galaxy Note 10.1 (Verizon)","Link":"/w/I925_Info","Power":"7000mAh","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
+{"Name":"Samsung Galaxy Note 10.1 (Verizon)","Link":"/w/I925_Info","Power":"7000mAh","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"10.1, 10.2, 11, 12, 12.1, 13"}
+{"Name":"Samsung Galaxy Note 10.1 2014 (LTE)","Link":"/w/Lt03lte_Info","Power":"8220 mAh","BatteryRem":"unk","ReleaseDate":"2013 October","Type":"tablet","CMSupport":"13"}
+{"Name":"Samsung Galaxy Note 10.1 2014 (Wi-Fi)","Link":"/w/Lt03wifi_Info","Power":"8220 mAh","BatteryRem":"unk","ReleaseDate":"2013 October","Type":"tablet","CMSupport":"12.1"}
 {"Name":"Samsung Galaxy Player 4.0","Link":"/w/Ypg1_Info","Power":"1200 mAh","BatteryRem":"unk","ReleaseDate":"2011 March 16","Type":"tablet","CMSupport":"11"}
 {"Name":"Samsung Galaxy Premier","Link":"/w/Superior_Info","Power":"2100 mAh","BatteryRem":"unk","ReleaseDate":"2012 Dec","Type":"phone","CMSupport":"10.2, 11, 12, 12.1"}
 {"Name":"Samsung Galaxy R","Link":"/w/I9103_Info","Power":"1650 mAh","BatteryRem":"unk","ReleaseDate":"2011 August","Type":"phone","CMSupport":"10.1"}
@@ -215,7 +243,7 @@
 {"Name":"Samsung Galaxy S B","Link":"/w/Galaxysbmtd_Info","Power":"1500 mAh","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"7, 9, 10, 10.1, 10.2, 11"}
 {"Name":"Samsung Galaxy S Blaze 4G","Link":"/w/T769_Info","Power":"1750 mAh","BatteryRem":"unk","ReleaseDate":"2012 March","Type":"phone","CMSupport":"9, 10, 10.1, 10.2, 11"}
 {"Name":"Samsung Galaxy S Relay 4G","Link":"/w/Apexqtmo_Info","Power":"1800 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2012 September","Type":"phone (slider)","CMSupport":"10.2, 11"}
-{"Name":"Samsung Galaxy S II","Link":"/w/I9100_Info","Power":"1650 mAh","BatteryRem":"unk","ReleaseDate":"2011 February 11","Type":"phone","CMSupport":"7, 9, 10, 10.1, 10.2, 11, 12.1"}
+{"Name":"Samsung Galaxy S II","Link":"/w/I9100_Info","Power":"1650 mAh","BatteryRem":"unk","ReleaseDate":"2011 February 11","Type":"phone","CMSupport":"7, 9, 10, 10.1, 10.2, 11, 12.1, 13"}
 {"Name":"Samsung Galaxy S II (AT\u0026T)","Link":"/w/I777_Info","Power":"1650 mAh","BatteryRem":"unk","ReleaseDate":"2011 October 2 (USA)","Type":"phone","CMSupport":"7, 9, 10, 10.1, 10.2, 12.1"}
 {"Name":"Samsung Galaxy S II (T-Mobile)","Link":"/w/Hercules_Info","Power":"1850 mAh","BatteryRem":"unk","ReleaseDate":"2011 October 12 (USA) 2011 October 28 (CAN)","Type":"phone","CMSupport":"9, 10, 10.1, 10.2, 11"}
 {"Name":"Samsung Galaxy S II Epic 4G Touch","Link":"/w/D710_Info","Power":"1800 mAh","BatteryRem":"unk","ReleaseDate":"2011 September 16","Type":"phone","CMSupport":"10.1, 10.2, 11"}
@@ -225,36 +253,36 @@
 {"Name":"Samsung Galaxy S III (International)","Link":"/w/I9300_Info","Power":"","BatteryRem":"unk","ReleaseDate":"May 2012","Type":"phone","CMSupport":"9, 10, 10.1, 10.2, 11, 13"}
 {"Name":"Samsung Galaxy S III LTE (International)","Link":"/w/I9305_Info","Power":"","BatteryRem":"unk","ReleaseDate":"October 2012","Type":"phone","CMSupport":"10.1, 10.2, 11"}
 {"Name":"Samsung Galaxy S III LTE","Link":"/w/D2lte_Info","Power":"2100 mAh","BatteryRem":"unk","ReleaseDate":"2012 June 28 (USA)","Type":"phone","CMSupport":"11"}
-{"Name":"Samsung Galaxy S III (AT\u0026T)","Link":"/w/D2att_Info","Power":"2100 mAh","BatteryRem":"unk","ReleaseDate":"2012 June 28 (USA)","Type":"phone","CMSupport":"10, 10.1, 10.2, 11, 12.1"}
+{"Name":"Samsung Galaxy S III (AT\u0026T)","Link":"/w/D2att_Info","Power":"2100 mAh","BatteryRem":"unk","ReleaseDate":"2012 June 28 (USA)","Type":"phone","CMSupport":"10, 10.1, 10.2, 11, 12.1, 13"}
 {"Name":"Samsung Galaxy S III (Cricket)","Link":"/w/D2cri_Info","Power":"2100 mAh","BatteryRem":"unk","ReleaseDate":"2012 June 28 (USA)","Type":"phone","CMSupport":"10, 10.1, 10.2, 11"}
 {"Name":"Samsung Galaxy S III (Metro PCS)","Link":"/w/D2mtr_Info","Power":"2100mAh battery:  3G: Up to 12.5 Days; LTE: Up to 8.3 Days","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"10, 10.1, 10.2, 11"}
-{"Name":"Samsung Galaxy S III (Sprint)","Link":"/w/D2spr_Info","Power":"2100 mAh","BatteryRem":"unk","ReleaseDate":"2012 June 28 (USA)","Type":"phone","CMSupport":"10, 10.1, 10.2, 11, 12.1"}
-{"Name":"Samsung Galaxy S III (T-Mobile)","Link":"/w/D2tmo_Info","Power":"2100 mAh","BatteryRem":"unk","ReleaseDate":"2012 June 21 (USA)","Type":"phone","CMSupport":"10, 10.1, 10.2, 11, 12.1"}
-{"Name":"Samsung Galaxy S III (Verizon)","Link":"/w/D2vzw_Info","Power":"2100 mAh","BatteryRem":"unk","ReleaseDate":"2012 June 28 (USA)","Type":"phone","CMSupport":"10, 10.1, 10.2, 11, 12, 12.1"}
+{"Name":"Samsung Galaxy S III (Sprint)","Link":"/w/D2spr_Info","Power":"2100 mAh","BatteryRem":"unk","ReleaseDate":"2012 June 28 (USA)","Type":"phone","CMSupport":"10, 10.1, 10.2, 11, 12.1, 13"}
+{"Name":"Samsung Galaxy S III (T-Mobile)","Link":"/w/D2tmo_Info","Power":"2100 mAh","BatteryRem":"unk","ReleaseDate":"2012 June 21 (USA)","Type":"phone","CMSupport":"10, 10.1, 10.2, 11, 12.1, 13"}
+{"Name":"Samsung Galaxy S III (Verizon)","Link":"/w/D2vzw_Info","Power":"2100 mAh","BatteryRem":"unk","ReleaseDate":"2012 June 28 (USA)","Type":"phone","CMSupport":"10, 10.1, 10.2, 11, 12.1, 13"}
 {"Name":"Samsung Galaxy S4","Link":"/w/Jflte_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"11"}
-{"Name":"Samsung Galaxy S4 (AT\u0026T)","Link":"/w/Jflteatt_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1"}
+{"Name":"Samsung Galaxy S4 (AT\u0026T)","Link":"/w/Jflteatt_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1, 13"}
 {"Name":"Samsung Galaxy S4 (Canadian)","Link":"/w/Jfltecan_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11"}
 {"Name":"Samsung Galaxy S4 (Cricket)","Link":"/w/Jfltecri_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11"}
 {"Name":"Samsung Galaxy S4 (C Spire)","Link":"/w/Jfltecsp_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11"}
-{"Name":"Samsung Galaxy S4 (Sprint)","Link":"/w/Jfltespr_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1"}
-{"Name":"Samsung Galaxy S4 (T-Mobile)","Link":"/w/Jfltetmo_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1"}
+{"Name":"Samsung Galaxy S4 (Sprint)","Link":"/w/Jfltespr_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1, 13"}
+{"Name":"Samsung Galaxy S4 (T-Mobile)","Link":"/w/Jfltetmo_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1, 13"}
 {"Name":"Samsung Galaxy S4 (US Cellular)","Link":"/w/Jflteusc_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11"}
-{"Name":"Samsung Galaxy S4 (Verizon)","Link":"/w/Jfltevzw_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1"}
-{"Name":"Samsung Galaxy S4 (International LTE)","Link":"/w/Jfltexx_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1"}
+{"Name":"Samsung Galaxy S4 (Verizon)","Link":"/w/Jfltevzw_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1, 13"}
+{"Name":"Samsung Galaxy S4 (International LTE)","Link":"/w/Jfltexx_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1, 13"}
 {"Name":"Samsung Galaxy S4 (International)","Link":"/w/I9500_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 April 26","Type":"phone","CMSupport":"11, 12.1"}
-{"Name":"Samsung Galaxy S4 LTE-A (GT-I9506)","Link":"/w/Ks01lte_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"11, 12.1"}
+{"Name":"Samsung Galaxy S4 LTE-A (GT-I9506)","Link":"/w/Ks01lte_Info","Power":"2600 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"11, 12.1, 13"}
 {"Name":"Samsung Galaxy S4 Active","Link":"/w/Jactivelte_Info","Power":"2600 mAh removable battery","BatteryRem":"yes","ReleaseDate":"2013 July 13","Type":"phone","CMSupport":"11, 12.1"}
-{"Name":"Samsung Galaxy S4 Mini (International 3G)","Link":"/w/Serrano3gxx_Info","Power":"1900 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 July","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1"}
-{"Name":"Samsung Galaxy S4 Mini (International LTE)","Link":"/w/Serranoltexx_Info","Power":"1900 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 July","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1"}
-{"Name":"Samsung Galaxy S5","Link":"/w/Klte_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"11 April 2014;","Type":"phone","CMSupport":"12, 12.1"}
-{"Name":"Samsung Galaxy S5 (AU)","Link":"/w/Kltekdi_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"12.1"}
-{"Name":"Samsung Galaxy S5 (China)","Link":"/w/Kltechn_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"12.1"}
-{"Name":"Samsung Galaxy S5 (Sprint)","Link":"/w/Kltespr_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"11, 12, 12.1"}
-{"Name":"Samsung Galaxy S5 (US Cellular)","Link":"/w/Klteusc_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"11"}
-{"Name":"Samsung Galaxy S5 (Verizon)","Link":"/w/Kltevzw_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"11"}
-{"Name":"Samsung Galaxy S5 (Vodafone)","Link":"/w/Kltedv_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"12.1"}
-{"Name":"Samsung Galaxy S5 Duos","Link":"/w/Klteduos_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"12.1"}
-{"Name":"Samsung Galaxy S5 Duos (China)","Link":"/w/Kltechnduo_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"12.1"}
+{"Name":"Samsung Galaxy S4 Mini (International 3G)","Link":"/w/Serrano3gxx_Info","Power":"1900 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 July","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1, 13"}
+{"Name":"Samsung Galaxy S4 Mini (International LTE)","Link":"/w/Serranoltexx_Info","Power":"1900 mAh Li-ion, removable","BatteryRem":"yes","ReleaseDate":"2013 July","Type":"phone","CMSupport":"10.1, 10.2, 11, 12, 12.1, 13"}
+{"Name":"Samsung Galaxy S5","Link":"/w/Klte_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"11 April 2014;","Type":"phone","CMSupport":"12, 12.1, 13"}
+{"Name":"Samsung Galaxy S5 (AU)","Link":"/w/Kltekdi_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"Samsung Galaxy S5 (China)","Link":"/w/Kltechn_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"Samsung Galaxy S5 (Sprint)","Link":"/w/Kltespr_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"11, 12, 12.1, 13"}
+{"Name":"Samsung Galaxy S5 (US Cellular)","Link":"/w/Klteusc_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"11, 13"}
+{"Name":"Samsung Galaxy S5 (Verizon)","Link":"/w/Kltevzw_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"11, 13"}
+{"Name":"Samsung Galaxy S5 (Vodafone)","Link":"/w/Kltedv_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"Samsung Galaxy S5 Duos","Link":"/w/Klteduos_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"Samsung Galaxy S5 Duos (China)","Link":"/w/Kltechnduo_Info","Power":"2800 mAh Li-ion battery, removable","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"12.1, 13"}
 {"Name":"Samsung Galaxy Tab (CDMA)","Link":"/w/P1c_Info","Power":"4000 mAh (Non-removable)","BatteryRem":"no","ReleaseDate":"2010 November 11 (USA - Verizon)2010 November 14 (USA - Sprint)","Type":"tablet","CMSupport":"9, 10"}
 {"Name":"Samsung Galaxy Tab (GSM)","Link":"/w/P1_Info","Power":"4000 mAh (Non-removable)","BatteryRem":"no","ReleaseDate":"2010 October (INT) 2010 November 10 (USA)","Type":"tablet","CMSupport":"9, 10, 11"}
 {"Name":"Samsung Galaxy Tab (P1000L)","Link":"/w/P1l_Info","Power":"4000 mAh (Non-removable)","BatteryRem":"no","ReleaseDate":"","Type":"tablet","CMSupport":"9, 10"}
@@ -274,7 +302,9 @@
 {"Name":"Samsung Galaxy Tab 2 10.1 (Wi-Fi + IR)","Link":"/w/P5113_Info","Power":"7000 mAh (Non-removable)","BatteryRem":"no","ReleaseDate":"","Type":"tablet","CMSupport":"9, 10, 10.1, 10.2, 11"}
 {"Name":"Samsung Galaxy Tab Pro 8.4","Link":"/w/Mondrianwifi_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"11, 12, 12.1, 13"}
 {"Name":"Samsung Galaxy Tab Pro 10.1 Wi-Fi","Link":"/w/Picassowifi_Info","Power":"","BatteryRem":"unk","ReleaseDate":"2014 March","Type":"tablet","CMSupport":"11, 12, 12.1"}
+{"Name":"Samsung Galaxy Tab S 8.4 (LTE)","Link":"/w/Klimtlte_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"12.1"}
 {"Name":"Samsung Galaxy Tab S 8.4 (Wi-Fi)","Link":"/w/Klimtwifi_Info","Power":"","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"12.1"}
+{"Name":"Samsung Galaxy Tab S 10.5 (Wi-Fi)","Link":"/w/Chagallwifi_Info","Power":"","BatteryRem":"unk","ReleaseDate":"2014 July","Type":"tablet","CMSupport":"12.1"}
 {"Name":"Samsung Mesmerize","Link":"/w/Mesmerizemtd_Info","Power":"1500 mAh","BatteryRem":"unk","ReleaseDate":"2010 October 27 (USA)","Type":"phone","CMSupport":"7, 10.1"}
 {"Name":"Samsung Showcase","Link":"/w/Showcasemtd_Info","Power":"1500 mAh","BatteryRem":"unk","ReleaseDate":"2010 October 27 (USA)","Type":"phone","CMSupport":"7"}
 {"Name":"Samsung Vibrant","Link":"/w/Vibrantmtd_Info","Power":"1500 mAh","BatteryRem":"unk","ReleaseDate":"2010 July 15 (USA)","Type":"phone","CMSupport":"7, 9, 10, 10.1"}
@@ -291,19 +321,18 @@
 {"Name":"Sony Ericsson Xperia Pro","Link":"/w/Iyokan_Info","Power":"1500 mAh internal rechargeable removable lithium-ion polymer battery","BatteryRem":"yes","ReleaseDate":"2011 October","Type":"phone (slider)","CMSupport":"7, 9, 10"}
 {"Name":"Sony Ericsson Xperia Ray","Link":"/w/Urushi_Info","Power":"1500 mAh internal rechargeable removable lithium-ion polymer battery","BatteryRem":"yes","ReleaseDate":"2011 August 1 (UK)","Type":"phone","CMSupport":"7, 9, 10"}
 {"Name":"Sony Ericsson Xperia X8","Link":"/w/Shakira_Info","Power":"1200 mAh internal rechargeable removable lithium-ion polymer battery","BatteryRem":"yes","ReleaseDate":"2010-09-01 UK","Type":"phone","CMSupport":"7"}
-{"Name":"Sony Ericsson Xperia X10","Link":"/w/Es209ra_Info","Power":"1500 mAh internal rechargeable removable lithium-ion polymer battery","BatteryRem":"yes","ReleaseDate":"2010 March","Type":"phone","CMSupport":"7"}
 {"Name":"Sony Ericsson Xperia X10 Mini","Link":"/w/Robyn_Info","Power":"950 mAh internal rechargeable removable lithium polymer battery","BatteryRem":"yes","ReleaseDate":"2010 May","Type":"phone","CMSupport":"7"}
 {"Name":"Sony Ericsson Xperia X10 Mini Pro","Link":"/w/Mimmi_Info","Power":"930 mAh internal rechargeable removable lithium-ion polymer battery","BatteryRem":"yes","ReleaseDate":"2010 June","Type":"phone (slider)","CMSupport":"7"}
 {"Name":"Sony Xperia acro S","Link":"/w/Hikari_Info","Power":"Non-removable Li-Ion 1910 mAh battery","BatteryRem":"no","ReleaseDate":"2012 August","Type":"phone","CMSupport":"9, 10"}
 {"Name":"Sony Xperia Ion","Link":"/w/Aoba_Info","Power":"Non-removable Li-Ion 1900 mAh battery","BatteryRem":"no","ReleaseDate":"2012 September","Type":"phone","CMSupport":"9"}
 {"Name":"Sony Xperia L","Link":"/w/Taoshan_Info","Power":"","BatteryRem":"unk","ReleaseDate":"2013 March","Type":"phone","CMSupport":"11, 12, 12.1"}
-{"Name":"Sony Xperia M","Link":"/w/Nicki_Info","Power":"","BatteryRem":"unk","ReleaseDate":"2013 June","Type":"phone","CMSupport":"11, 12.1"}
+{"Name":"Sony Xperia M","Link":"/w/Nicki_Info","Power":"","BatteryRem":"unk","ReleaseDate":"2013 June","Type":"phone","CMSupport":"11, 12.1, 13"}
 {"Name":"Sony Xperia S","Link":"/w/Nozomi_Info","Power":"Li-Ion 1750 mAh battery","BatteryRem":"unk","ReleaseDate":"","Type":"phone","CMSupport":"9, 10"}
-{"Name":"Sony Xperia SP","Link":"/w/Huashan_Info","Power":"Non-removable Li-Ion 2370 mAh battery","BatteryRem":"no","ReleaseDate":"2013 April","Type":"phone","CMSupport":"11, 12.1"}
+{"Name":"Sony Xperia SP","Link":"/w/Huashan_Info","Power":"Non-removable 2370 mAh","BatteryRem":"no","ReleaseDate":"2013 April","Type":"phone","CMSupport":"11, 12.1, 13"}
 {"Name":"Sony Xperia T","Link":"/w/Mint_Info","Power":"1850 mAh","BatteryRem":"unk","ReleaseDate":"2012 September","Type":"phone","CMSupport":"10, 10.1, 10.2, 11, 12"}
 {"Name":"Sony Xperia TX","Link":"/w/Hayabusa_Info","Power":"1750 mAh","BatteryRem":"unk","ReleaseDate":"August 2012","Type":"phone","CMSupport":"10.1"}
-{"Name":"Sony Xperia Tablet Z LTE","Link":"/w/Pollux_Info","Power":"6000 mAh","BatteryRem":"unk","ReleaseDate":"2013 May","Type":"tablet","CMSupport":"10.1, 10.2, 11, 12.1"}
-{"Name":"Sony Xperia Tablet Z Wi-Fi","Link":"/w/Pollux_windy_Info","Power":"6000 mAh","BatteryRem":"unk","ReleaseDate":"2013 May","Type":"tablet","CMSupport":"10.1, 10.2, 11, 12.1"}
+{"Name":"Sony Xperia Tablet Z LTE","Link":"/w/Pollux_Info","Power":"6000 mAh","BatteryRem":"unk","ReleaseDate":"2013 May","Type":"tablet","CMSupport":"10.1, 10.2, 11, 12.1, 13"}
+{"Name":"Sony Xperia Tablet Z Wi-Fi","Link":"/w/Pollux_windy_Info","Power":"6000 mAh","BatteryRem":"unk","ReleaseDate":"2013 May","Type":"tablet","CMSupport":"10.1, 10.2, 11, 12.1, 13"}
 {"Name":"Sony Xperia V","Link":"/w/Tsubasa_Info","Power":"1700 mAh","BatteryRem":"unk","ReleaseDate":"2012 September","Type":"phone","CMSupport":"10.1, 10.2, 11, 12"}
 {"Name":"Sony Xperia Z","Link":"/w/Yuga_Info","Power":"2330 mAh","BatteryRem":"unk","ReleaseDate":"2013 March","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1"}
 {"Name":"Sony Xperia Z Ultra","Link":"/w/Togari_Info","Power":"3050 mAh","BatteryRem":"unk","ReleaseDate":"2013 June","Type":"phone","CMSupport":"10.2, 11, 12, 12.1"}
@@ -321,12 +350,16 @@
 {"Name":"Sony Xperia ZL","Link":"/w/Odin_Info","Power":"2370 mAh","BatteryRem":"unk","ReleaseDate":"2013 March","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1"}
 {"Name":"Sony Xperia ZR","Link":"/w/Dogo_Info","Power":"2300 mAh","BatteryRem":"unk","ReleaseDate":"2013 March","Type":"phone","CMSupport":"10.1, 10.2, 11, 12.1"}
 {"Name":"Viewsonic G Tablet","Link":"/w/Smb_a1002_Info","Power":"3650 mAh internal rechargeable lithium-polymer battery","BatteryRem":"unk","ReleaseDate":"","Type":"tablet","CMSupport":"7"}
-{"Name":"Wileyfox Swift","Link":"/w/Crackling_Info","Power":"Removable 2500 mAh","BatteryRem":"unk","ReleaseDate":"2015 October","Type":"phone","CMSupport":"12.1"}
+{"Name":"Wileyfox Storm","Link":"/w/Kipper_Info","Power":"2500 mAh Non-removable","BatteryRem":"no","ReleaseDate":"2015 October","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"Wileyfox Swift","Link":"/w/Crackling_Info","Power":"Removable 2500 mAh","BatteryRem":"unk","ReleaseDate":"2015 October","Type":"phone","CMSupport":"12.1, 13"}
 {"Name":"Xiaomi Mi 2/2S","Link":"/w/Aries_Info","Power":"Removable Li-Po 2000 mAh","BatteryRem":"unk","ReleaseDate":"November 2012 (Mi 2) / April 2013 (Mi 2S)","Type":"phone","CMSupport":"11"}
-{"Name":"Xiaomi Mi 3, Mi 4","Link":"/w/Cancro_Info","Power":"Non-removable Li-Ion  3050 mAh (Mi 3) / 3080 mAh (Mi 4)","BatteryRem":"no","ReleaseDate":"2013 October (Mi 3) /  2014 August (Mi 4)","Type":"phone","CMSupport":"12.1"}
-{"Name":"YU Yuphoria","Link":"/w/Lettuce_Info","Power":"2230 mAh","BatteryRem":"unk","ReleaseDate":"2015 May 12","Type":"phone","CMSupport":"12.1"}
-{"Name":"YU Yureka / Yureka Plus","Link":"/w/Tomato_Info","Power":"2500 mAh","BatteryRem":"unk","ReleaseDate":"2014 December 18 / 2015 July 24 (Plus)","Type":"phone","CMSupport":"12.1"}
+{"Name":"Xiaomi Mi 3, Mi 4","Link":"/w/Cancro_Info","Power":"Non-removable Li-Ion  3050 mAh (Mi 3) / 3080 mAh (Mi 4)","BatteryRem":"no","ReleaseDate":"2013 October (Mi 3) /  2014 August (Mi 4)","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"YU Yunique","Link":"/w/Jalebi_Info","Power":"2000 mAh","BatteryRem":"unk","ReleaseDate":"2015 September","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"YU Yuphoria","Link":"/w/Lettuce_Info","Power":"2230 mAh","BatteryRem":"unk","ReleaseDate":"2015 May 12","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"YU Yureka / Yureka Plus","Link":"/w/Tomato_Info","Power":"2500 mAh","BatteryRem":"unk","ReleaseDate":"2014 December 18 / 2015 July 24 (Plus)","Type":"phone","CMSupport":"12.1, 13"}
+{"Name":"YU Yutopia","Link":"/w/Sambar_Info","Power":"3000 mAh Non-removable Li-Po","BatteryRem":"no","ReleaseDate":"2015 December","Type":"phone","CMSupport":"12.1, 13"}
 {"Name":"ZTE Blade","Link":"/w/Blade_Info","Power":"1250 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"","Type":"phone","CMSupport":"7"}
-{"Name":"Nubia Z9 Max","Link":"/w/Nx510j_Info","Power":"2900mAh","BatteryRem":"unk","ReleaseDate":"2015 March 26","Type":"phablet","CMSupport":"12.1"}
+{"Name":"Nubia Z9 Max","Link":"/w/Nx510j_Info","Power":"2900mAh","BatteryRem":"unk","ReleaseDate":"2015 March 26","Type":"phablet","CMSupport":"12.1, 13"}
 {"Name":"ZTE Skate","Link":"/w/Skate_Info","Power":"","BatteryRem":"unk","ReleaseDate":"2011 September","Type":"phone","CMSupport":"7"}
 {"Name":"ZTE v9","Link":"/w/V9_Info","Power":"3400 mAh internal rechargeable removable lithium-ion battery","BatteryRem":"yes","ReleaseDate":"","Type":"tablet","CMSupport":"7"}
+{"Name":"ZUK Z1","Link":"/w/Ham_Info","Power":"4000 mAh","BatteryRem":"unk","ReleaseDate":"2015 October 14","Type":"phone","CMSupport":"12.1"}
