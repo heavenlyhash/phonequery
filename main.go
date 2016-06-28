@@ -30,6 +30,10 @@ func main() {
 		{"discard tablet", func(device Vitalstats) bool {
 			return device.Type != "tablet"
 		}},
+		// {"require recent release year", func(device Vitalstats) bool {
+		// 	return strings.Contains(device.ReleaseDate, "2015") ||
+		// 		strings.Contains(device.ReleaseDate, "2016")
+		// }},
 		{"discard known non-removable batt", func(device Vitalstats) bool {
 			return device.BatteryRem != "no"
 		}},
