@@ -4,15 +4,15 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
-	"strings"
+	// "strings"
 
 	. "./stuff"
 )
 
 func main() {
 	// Fetch ALL THE THINGS
-	allDevices := UseCache("cache/cmwiki", CMWikiScraper)()
-	//allDevices := UseCache("cache/phonescoop", PhoneScoopScraper)()
+	//allDevices := UseCache("cache/cmwiki", CMWikiScraper)()
+	allDevices := UseCache("cache/phonescoop", PhoneScoopScraper)()
 
 	fmt.Println()
 	fmt.Printf("%d devices in total.\n", len(allDevices))
@@ -40,10 +40,11 @@ func main() {
 		{"require definitely removable batt", func(device Vitalstats) bool {
 			return device.BatteryRem == "yes"
 		}},
-		{"require latest CM", func(device Vitalstats) bool {
-			return strings.Contains(device.CMSupport, "12") || // still most common
-				strings.Contains(device.CMSupport, "13") // leading edge
-		}},
+		// {"require latest CM", func(device Vitalstats) bool {
+		// 	return strings.Contains(device.CMSupport, "12") || // still most common
+		// 		strings.Contains(device.CMSupport, "13") || // leading edge
+		// 		strings.Contains(device.CMSupport, "11") // ... fuckkit.
+		// }},
 	}
 
 	// Apply the filters.

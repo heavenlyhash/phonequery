@@ -31,11 +31,13 @@ var PhoneScoopScraper = func() []Vitalstats {
 		if err != nil {
 			log.Fatal(err)
 		}
-		doc2.Find("content table.hgrid tr").Each(func(_ int, s *goquery.Selection) {
+		doc2.Find("div#content table.hgrid tr").Each(func(_ int, s *goquery.Selection) {
 			// assume two columns; first is labels, second is values.
 			rowCells := s.Find("td")
+			key := strings.TrimSpace(rowCells.First().Text())
 			val := strings.TrimSpace(rowCells.Next().Text())
-			switch strings.TrimSpace(rowCells.Next().Text()) {
+			// fmt.Fprintf(os.Stderr, ">>> k: %q  ;; v: %q\n", key, val)
+			switch key {
 			case "Battery":
 				vitals.Power = val
 			}
@@ -51,6 +53,7 @@ var PhoneScoopScraper = func() []Vitalstats {
 		case strings.Contains(vitals.Power, "Removable"):
 			vitals.BatteryRem = "yes"
 		default:
+			fmt.Fprintf(os.Stderr, "> couldn't detect battery removability from %q\n", vitals.Power)
 			vitals.BatteryRem = "unk"
 		}
 
