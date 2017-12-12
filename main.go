@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"strings"
 	// "strings"
 
 	. "./stuff"
@@ -12,7 +13,8 @@ import (
 func main() {
 	// Fetch ALL THE THINGS
 	//allDevices := UseCache("cache/cmwiki", CMWikiScraper)()
-	allDevices := UseCache("cache/phonescoop", PhoneScoopScraper)()
+	//allDevices := UseCache("cache/phonescoop", PhoneScoopScraper)()
+	allDevices := UseCache("cache/lineagewiki", LineageWikiScraper)()
 
 	fmt.Println()
 	fmt.Printf("%d devices in total.\n", len(allDevices))
@@ -30,21 +32,22 @@ func main() {
 		{"discard tablet", func(device Vitalstats) bool {
 			return device.Type != "tablet"
 		}},
-		// {"require recent release year", func(device Vitalstats) bool {
-		// 	return strings.Contains(device.ReleaseDate, "2015") ||
-		// 		strings.Contains(device.ReleaseDate, "2016")
-		// }},
+		{"require recent release year", func(device Vitalstats) bool {
+			return strings.Contains(device.ReleaseDate, "2017") ||
+				strings.Contains(device.ReleaseDate, "2016")
+		}},
 		{"discard known non-removable batt", func(device Vitalstats) bool {
 			return device.BatteryRem != "no"
 		}},
 		{"require definitely removable batt", func(device Vitalstats) bool {
 			return device.BatteryRem == "yes"
 		}},
-		// {"require latest CM", func(device Vitalstats) bool {
-		// 	return strings.Contains(device.CMSupport, "12") || // still most common
-		// 		strings.Contains(device.CMSupport, "13") || // leading edge
-		// 		strings.Contains(device.CMSupport, "11") // ... fuckkit.
-		// }},
+		{"require latest lineageOS", func(device Vitalstats) bool {
+			// 13~15 are what's on https://www.lineageoslog.com/ today.
+			return strings.Contains(device.CMSupport, "13") ||
+				strings.Contains(device.CMSupport, "14") ||
+				strings.Contains(device.CMSupport, "15")
+		}},
 	}
 
 	// Apply the filters.
